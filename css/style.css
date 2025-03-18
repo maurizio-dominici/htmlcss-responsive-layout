@@ -25,18 +25,34 @@ ul {
 /* UTILS */
 
 .container {
-  max-width: 1100px;
+  max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
-/* HEADER */
+[class*="col"] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.col-1-2 {
+  width: calc(100% / 2);
+}
+
+/* --------------MOBILE VIEW-------------- */
+
+/* ------ HEADER ------ */
 
 /* debug */
 
@@ -52,8 +68,42 @@ h1 {
   padding: 25px;
 }
 
-/* MAIN */
+/* ------ MAIN ------ */
 
 main {
   background-color: #f6f5f3;
+}
+
+/* DESSERT */
+
+.container {
+  max-width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 0.5rem;
+}
+
+#dessert .description {
+  color: #b5a2a2;
+}
+
+#dessert h2 {
+  color: #4e3969;
+  padding: 1rem 0;
+}
+
+#dessert .card {
+  background-color: white;
+}
+
+#dessert .card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  padding: 1rem 0;
+}
+
+.card-content li {
+  padding: 0.4rem 0;
 }
