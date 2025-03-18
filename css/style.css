@@ -39,8 +39,8 @@ ul {
 
   /* debug */
 
-  /* margin-left: -0.5rem;
-  margin-right: -0.5rem; */
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 [class*="col"] {
@@ -56,11 +56,10 @@ ul {
 
 /* ------ HEADER ------ */
 
-/* debug */
-
-/* header {
-  background-color: #ff000022;
-} */
+header {
+  position: sticky;
+  background-color: white;
+}
 
 h1 {
   text-align: center;
@@ -105,4 +104,38 @@ main {
 
 .card-content li {
   padding: 0.4rem 0;
+}
+
+/* SOCIAL */
+
+#social .row {
+  justify-content: space-between;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.social-tab {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.social-tab.facebook i {
+  color: #1a77f3;
+}
+
+.social-tab.instagram i {
+  color: #e16d92;
+}
+
+.social-tab.youtube i {
+  color: #e62222;
+}
+
+.social-tab.pinterest i {
+  color: #e62222;
+}
+
+#social .invisible {
+  display: none;
 }
