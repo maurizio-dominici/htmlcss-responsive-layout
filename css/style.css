@@ -25,7 +25,7 @@ ul {
 /* UTILS */
 
 .container {
-  max-width: 460px;
+  max-width: 430px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -48,6 +48,10 @@ ul {
   padding-right: 0.5rem;
 }
 
+.invisible {
+  display: none;
+}
+
 .col-1-2 {
   width: calc(100% / 2);
 }
@@ -56,7 +60,7 @@ ul {
 
 /* ------ HEADER ------ */
 
-header {
+.page-header {
   position: sticky;
   background-color: white;
 }
@@ -71,7 +75,7 @@ h1 {
 
 /* ------ MAIN ------ */
 
-main {
+.page-main {
   background-color: #f6f5f3;
 }
 
@@ -92,6 +96,7 @@ main {
 
 #dessert .card {
   background-color: white;
+  box-shadow: 0px 0px 15px 7px #b8afaf;
 }
 
 #dessert .card-content {
@@ -121,6 +126,7 @@ main {
   padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
+  box-shadow: 0px 0px 15px 7px #b8afaf;
 }
 
 .social-tab.facebook i {
@@ -174,4 +180,80 @@ main {
 
 .page-footer {
   background-color: #7c69a4;
+  color: white;
+
+  font-size: 0.8rem;
+}
+
+.address {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.address-top {
+  padding-bottom: 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info li {
+  display: inline-block;
+}
+
+/* -------------tablet view------------- */
+
+@media screen and (min-width: 780px) {
+  h1 {
+    text-align: start;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+
+  #dessert .invisible {
+    display: inline-block;
+  }
+
+  #dessert ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .social-tab {
+    padding: 10px 45px;
+  }
+
+  #banner .container {
+    display: block;
+  }
+
+  #presentation .container {
+    padding: 1rem 0.5rem;
+  }
+
+  #presentation img {
+    width: 35%;
+  }
+
+  #presentation .paragraph {
+    padding-bottom: 40px;
+  }
+
+  .address {
+    padding-bottom: 10px;
+  }
+
+  .address-top {
+    padding-bottom: 10px;
+  }
 }
