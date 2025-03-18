@@ -257,3 +257,38 @@ h1 {
     padding-bottom: 10px;
   }
 }
+
+/* ------------dekstop view------------ */
+
+@media screen and (min-width: 1080px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  #dessert .card {
+    display: flex;
+  }
+
+  #dessert .card-content ul {
+    display: block;
+  }
+
+  .social-tab {
+    padding: 10px 30px;
+  }
+
+  #social .invisible {
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  .page-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-footer .info {
+    text-align: end;
+  }
+}
