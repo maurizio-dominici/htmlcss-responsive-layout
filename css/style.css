@@ -107,7 +107,9 @@ main {
 }
 
 /* SOCIAL */
-
+#social .container {
+  padding: 1rem 0.5rem;
+}
 #social .row {
   justify-content: space-between;
   margin-left: 0rem;
@@ -118,6 +120,7 @@ main {
   background-color: white;
   padding: 10px 20px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .social-tab.facebook i {
@@ -138,4 +141,37 @@ main {
 
 #social .invisible {
   display: none;
+}
+
+/* BANNER */
+
+#banner .container {
+  display: none;
+}
+
+/* PRESENTATION */
+
+#presentation h2 {
+  font-weight: 500;
+  padding: 1rem 0 1.5rem;
+}
+
+#presentation .line {
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f7972e;
+}
+
+#presentation img {
+  box-shadow: 0px 0px 15px 7px #b8afaf;
+  margin: 25px 0;
+}
+
+/* #presentation .paragraph {
+  
+} */
+
+/* FOOTER */
+
+.page-footer {
+  background-color: #7c69a4;
 }
