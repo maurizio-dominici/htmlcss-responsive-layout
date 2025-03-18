@@ -14,9 +14,9 @@ img {
   max-width: 100%;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -67,9 +67,9 @@ ul {
 
 h1 {
   text-align: center;
-  font-family: fantasy;
+  font-family: cursive;
   color: #ff9614;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 25px;
 }
 
@@ -181,8 +181,8 @@ h1 {
 .page-footer {
   background-color: #7c69a4;
   color: white;
-
   font-size: 0.8rem;
+  padding-top: 20px;
 }
 
 .address {
@@ -196,6 +196,7 @@ h1 {
 
 .info {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .info ul {
@@ -205,6 +206,11 @@ h1 {
 
 .info li {
   display: inline-block;
+  margin-right: 15px;
+}
+
+.page-footer a {
+  color: white;
 }
 
 /* -------------tablet view------------- */
@@ -282,13 +288,19 @@ h1 {
     font-weight: 600;
   }
 
-  .page-footer .container {
+  .page-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .page-footer .address {
+    text-align: start;
   }
 
   .page-footer .info {
     text-align: end;
+    padding: 0px;
   }
 }
