@@ -31,3 +31,29 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.row {
+  display: flex;
+}
+
+/* HEADER */
+
+/* debug */
+
+/* header {
+  background-color: #ff000022;
+} */
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  color: #ff9614;
+  font-size: 3rem;
+  padding: 25px;
+}
+
+/* MAIN */
+
+main {
+  background-color: #f6f5f3;
+}
