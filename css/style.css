@@ -249,8 +249,15 @@ h1 {
     padding: 1rem 0.5rem;
   }
 
+  .presentation-media::after {
+    content: "";
+    clear: both;
+  }
+
   #presentation img {
     width: 35%;
+    float: left;
+    margin-right: 1rem;
   }
 
   #presentation .paragraph {
@@ -287,6 +294,7 @@ h1 {
 
   #social .invisible {
     display: inline-block;
+    color: black;
     font-weight: 600;
   }
 
