@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
 img {
@@ -61,6 +61,7 @@ ul {
 /* ------ HEADER ------ */
 
 .page-header {
+  font-family: "Nerko One", cursive;
   position: sticky;
   background-color: white;
 }
